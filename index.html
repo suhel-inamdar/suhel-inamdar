@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Suhel Inamdar | Professional Profile</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+    rel="stylesheet"
+  />
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    
+    body {
+      font-family: 'Roboto', sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background-color: #f9f9f9;
+    }
+    
+    header {
+      background-color: #004080;
+      color: #fff;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+    
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+    
+    header p {
+      font-size: 1.2rem;
+      opacity: 0.9;
+    }
+    
+    .container {
+      max-width: 1100px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    
+    .profile {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      background-color: #fff;
+      padding: 2rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+    
+    .profile-img {
+      flex: 1 1 250px;
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+    
+    .profile-img img {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 4px solid #004080;
+    }
+    
+    .profile-info {
+      flex: 2 1 400px;
+      padding: 0 2rem;
+    }
+    
+    .profile-info h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    
+    .profile-info p {
+      margin-bottom: 1rem;
+      font-size: 1.1rem;
+    }
+    
+    section {
+      margin-top: 2rem;
+    }
+    
+    .section-title {
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+      border-bottom: 2px solid #004080;
+      padding-bottom: 0.5rem;
+      color: #004080;
+    }
+    
+    .experience, .projects {
+      background-color: #fff;
+      padding: 1.5rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      margin-bottom: 2rem;
+    }
+    
+    .experience ul, .projects ul {
+      list-style-type: disc;
+      margin-left: 2rem;
+    }
+    
+    .experience li, .projects li {
+      margin-bottom: 0.75rem;
+      font-size: 1.05rem;
+    }
+    
+    .contact {
+      text-align: center;
+      padding: 1.5rem;
+    }
+    
+    .contact a {
+      text-decoration: none;
+      color: #fff;
+      background-color: #004080;
+      padding: 0.75rem 1.5rem;
+      border-radius: 5px;
+      font-size: 1.1rem;
+      transition: background-color 0.3s ease;
+    }
+    
+    .contact a:hover {
+      background-color: #003366;
+    }
+    
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #666;
+    }
+    
+    @media (max-width: 768px) {
+      .profile {
+        flex-direction: column;
+        text-align: center;
+      }
+      
+      .profile-info {
+        padding: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Suhel Inamdar</h1>
+    <p>Backend Engineer & AI Enthusiast</p>
+  </header>
+  
+  <div class="container">
+    <!-- Profile Section -->
+    <section class="profile">
+      <div class="profile-img">
+        <!-- Replace '/home/admin1/Desktop/s.jpg' with your actual photo file -->
+        <img src="s.jpeg" alt="Suhel Inamdar" />
+      </div>
+      <div class="profile-info">
+        <h2>About Me</h2>
+        <p>
+          I am a passionate backend engineer with over 6 years of experience in building robust systems. I specialize in Python, MongoDB, PostgreSQL, and NestJS, and have integrated various third-party APIs including SendGrid and Twilio. I have led multiple projects, designed comprehensive system architectures, and implemented REST APIs and database schemas.
+        </p>
+        <p>
+          Recently, I have expanded my expertise into the world of AI, working on projects involving RAG systems using Langchain and creating AI Agents with Langgraph. I am continuously exploring new technologies and methodologies to push the boundaries of backend development and artificial intelligence.
+        </p>
+      </div>
+    </section>
+    
+    <!-- Work Experience Section -->
+    <section class="experience">
+      <h2 class="section-title">Work Experience</h2>
+      <ul>
+        <li>
+          <strong>Backend Engineer</strong> – 6 Years of hands-on experience developing high-performance, scalable APIs and backend systems.
+        </li>
+        <li>
+          Expertise in Python, MongoDB, PostgreSQL, NestJS, and integration with third-party APIs such as SendGrid and Twilio.
+        </li>
+        <li>
+          Proven track record in designing systems, developing REST APIs, and creating robust database schemas.
+        </li>
+        <li>
+          Led multiple projects from conception to deployment, ensuring timely delivery and adherence to industry best practices.
+        </li>
+      </ul>
+    </section>
+    
+    <!-- Projects Section -->
+    <section class="projects">
+      <h2 class="section-title">Projects & AI Initiatives</h2>
+      <ul>
+        <li>
+          Implemented cutting-edge RAG systems using Langchain to improve data retrieval and processing.
+        </li>
+        <li>
+          Developed AI Agents with Langgraph, enhancing automation and decision-making processes.
+        </li>
+        <li>
+          Spearheaded backend development projects that streamlined operations and enhanced system reliability.
+        </li>
+      </ul>
+    </section>
+    
+    <!-- Contact Section -->
+    <section class="contact">
+      <p>Let's connect professionally.</p><br>
+      <a href="https://www.linkedin.com/in/suhel-inamdar/" target="_blank">Visit My LinkedIn</a>
+    </section>
+  </div>
+  
+  <footer>
+    <p>&copy; 2025 Suhel Inamdar. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
